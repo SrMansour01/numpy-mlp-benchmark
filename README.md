@@ -84,4 +84,30 @@ Este projeto é livre para uso pessoal e educacional.
 
 ---
 
-# ✨ Print dos Gráficos (Exemplo)
+## 📈 Resultados Gráficos
+
+### 1. Evolução do Loss e Acurácia
+
+![Gráfico de Loss e Acurácia](assets/loss_acc_durante_treinamento.png)
+
+Este gráfico mostra como a rede neural manual treinou ao longo do tempo. 
+- O loss caiu gradualmente indicando aprendizado.
+- A acurácia subiu, mostrando que a rede melhorou nas previsões.
+
+---
+
+### 2. Comparação de Precisão entre Modelos
+
+![Gráfico de Comparação de Precisão](assets/Comp_precisão_dos_modelos.png)
+
+Aqui comparamos diretamente o desempenho:
+- A MLP manual (NumPy) apresentou uma precisão muito próxima à do Scikit-Learn.
+- Isso valida a qualidade da implementação manual.
+
+---
+
+## 🧪 Resultados do Terminal
+
+- Precisão Sklearn: **0.9875**
+- Precisão Manual: **0.9875**
+- Diferença: **0.0000** ✅
